@@ -21,10 +21,6 @@ class ViewController: UIViewController {
         TextLabel.textColor = UIColor.orange;
     }
     
-    @IBAction func ChangeBackground(_ sender: Any) {
-        print("Background Changed!");
-        view.backgroundColor = .blue;
-    }
     
     @IBAction func ChangeText(_ sender: Any) {
         print("Text changed");
@@ -35,6 +31,10 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func ChangeBackground(_ sender: Any) {
+        print("Background Changed!");
+        view.backgroundColor = .blue;
+    }
     
     
     
